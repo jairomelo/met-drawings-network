@@ -1,21 +1,25 @@
 ---
-title: "MET Drawings & Prints Semantic Network"
-subtitle: "An Interactive Visual & Multimodal Exploration of Art Over the Centuries"
+title: "The Semantic Network of Masterpiece Drawings and Prints"
+subtitle: "An Interactive Multimodal Semantic Analysis of MET Museum Artworks"
 author: "opencode"
 date: "2026-07-13"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    self-contained: false
 ---
 
-Welcome to the **MET Museum Drawings and Prints Semantic Network Project**!
+Welcome to the **MET Museum Drawings and Prints Semantic Network**. 
 
-This project explores 44 exquisite works of graphic art from the Metropolitan Museum of Art's Drawings and Prints Collection (Department 9). We focus on three distinct periods:
-1. **German Renaissance** (Albrecht Dürer, Lucas Cranach, Hans Baldung)
-2. **Dutch Golden Age** (Rembrandt van Rijn, Adriaen van Ostade)
-3. **French 19th-Century** (Honoré Daumier, Edgar Degas, Henri de Toulouse-Lautrec)
+Explore the interactive canvas below. Nodes represent 44 masterpiece drawings and prints from the **German Renaissance** (Gold), **Dutch Golden Age** (Amber), and **French 19th-Century** (Crimson). Edges connect artworks sharing visual features (Palette, Concepts, Mood, and Themes) computed using **Gemini 3.5 Multimodal Vision-Language Model (`gemini-3.5-flash`)**.
 
-Using **Gemini 3.5 Multimodal Vision-Language Model (`gemini-3.5-flash`)**, we analyzed each local artwork's image to extract visual metrics (colors, concepts, mood, and latent historical research themes).
+* **Interact:** Click and drag nodes to explore relationships, or use your scroll wheel to zoom.
+* **Hover Nodes:** View full historical metadata, image thumbnails, color palettes, moods, and latent themes!
+* **Hover Edges:** View the overlapping semantic tags bridging the two works of art.
 
-We then built a **Projected Network Graph** where edges connect artworks sharing semantic features. 
+::: {.column-page}
+<iframe src="data/art_semantic_network.html" width="100%" height="800px" style="border: 1px solid #D1D1D6; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background-color:#1C1C1E; margin-bottom: 25px;"></iframe>
+:::
 
-### 🧭 Exploration Hub
-
-*   [**Interactive Semantic Network Analysis**](analysis.qmd): View the interactive, draggable, zoomable visual graph canvas, see rich metadata, and inspect the connections bridging centuries of art history!
+Looking for details on the methodology, cluster profiles, and research findings? Head over to the [**Research Methodology & Scholarly Insights**](analysis.qmd) section!

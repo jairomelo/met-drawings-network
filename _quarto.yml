@@ -8,9 +8,9 @@ website:
     background: primary
     left:
       - href: index.qmd
-        text: Home
+        text: Interactive Canvas
       - href: analysis.qmd
-        text: Semantic Network Analysis
+        text: Research & Insights
 
 format:
   html:

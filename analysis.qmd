@@ -1,6 +1,6 @@
 ---
-title: "The Semantic Network of Masterpiece Drawings and Prints"
-subtitle: "An Interactive Multimodal Semantic Analysis of MET Museum Artworks"
+title: "Research Methodology & Scholarly Insights"
+subtitle: "Historical Framework, Multi-modal Enrichment, and Semantic Topologies"
 author: "opencode"
 date: "2026-07-13"
 format:
@@ -8,13 +8,13 @@ format:
     theme: cosmo
     toc: true
     toc-depth: 3
-    self-contained: true
+    self-contained: false
     code-fold: true
 ---
 
-## 1. Project Overview
+## 1. Project Overview & Clusters
 
-This study visualizes and explores the semantic and historical connections across a curated, clustered sample of 44 drawings and prints retrieved from the **Metropolitan Museum of Art's Drawings and Prints Collection (Department 9)**. 
+This study explores the semantic and historical connections across a curated, clustered sample of 44 drawings and prints retrieved from the **Metropolitan Museum of Art's Drawings and Prints Collection (Department 9)**. 
 
 ### 1.1 The Clustered Approach
 Rather than utilizing a completely blind random sample, which can result in disconnected isolated items, we used a **clustered snowball sampling** methodology. We selected three cohesive historical hubs that are visually distinct and culturally rich:
@@ -54,24 +54,14 @@ Out of 946 possible connections in our 44-node system:
 
 ---
 
-## 4. Interactive Semantic Network Canvas
-
-Below is the fully interactive, draggable, zoomable network visualization. 
-* **Interact:** You can drag nodes to isolate clusters, zoom in/out with your mouse wheel, or hover over nodes/edges.
-* **Hover Nodes:** Displays a **rich pop-up** showing the artwork's metadata, a thumbnail preview of the painting, and the exact Gemini-extracted colors and themes.
-* **Hover Edges:** Shows the exact list of shared visual concepts or themes between the connected works.
-* **Colors:** Nodes are bordered matching their movements: **Gold** (German Renaissance), **Amber** (Dutch Golden Age), and **Crimson** (French 19th-Century).
-
-::: {.column-page}
-<iframe src="data/art_semantic_network.html" width="100%" height="800px" style="border: 1px solid #D1D1D6; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background-color:#1C1C1E;"></iframe>
-:::
-
----
-
-## 5. Scholarly Insights
+## 4. Scholarly Insights
 
 This visualization reveals several fascinating insights about the collection's interconnectedness:
 
 1. **Medium-Driven Palettes:** Woodcuts, etchings, and lithographs across all three centuries are strongly connected by their medium-driven palettes (sharing colors like `"charcoal black"`, `"warm cream paper"`, and `"sepia brown"`). This creates a central structural backbone of aesthetic cohesion that links Albrecht Dürer directly to Rembrandt and Honoré Daumier.
 2. **Cross-Temporal Mood Clusters:** We see strong mood subgraphs. Works expressing a `"contemplative"` or `"melancholic"` vibe bridge the German Renaissance (Dürer's *Melencolia I* or *Man of Sorrows*) and the Dutch Golden Age (Rembrandt's detailed portraits), demonstrating a shared interest in human introspection.
 3. **The Rise of Social Satire:** The French 19th-Century cluster acts as a dense, semi-isolated visual community characterized by the `"satirical"` mood and themes of `"social status"` and `"urban life"`, showcasing a transition from the religious/scientific subjects of the Renaissance and Golden Age to secular, modern critiques.
+
+---
+
+[**Return to the Interactive Semantic Network landing page**](index.qmd)
