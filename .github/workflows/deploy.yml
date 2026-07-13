@@ -32,14 +32,17 @@ jobs:
         with:
           to: html
 
-      # Make sure the images/ and data/ folders are copied to the site output
+      # Make sure the images/, data/, lib/ and network files are copied to the site output
       # so that the embedded network HTML and local node images render properly!
       - name: Copy Assets to Site Output
         run: |
           mkdir -p _site/images
           mkdir -p _site/data
+          mkdir -p _site/lib
           cp -r images/* _site/images/ || true
           cp -r data/* _site/data/ || true
+          cp -r lib/* _site/lib/ || true
+          cp art_semantic_network.html _site/ || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

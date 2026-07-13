@@ -7,7 +7,7 @@ from pyvis.network import Network
 DATA_DIR = "data"
 IMAGE_DIR = "images"
 METADATA_JSON_PATH = os.path.join(DATA_DIR, "met_drawings_sample.json")
-OUTPUT_HTML_PATH = os.path.join(DATA_DIR, "art_semantic_network.html")
+OUTPUT_HTML_PATH = "art_semantic_network.html"
 
 # Define border color mapping for clusters
 CLUSTER_COLORS = {
@@ -56,7 +56,7 @@ def generate_network():
         image_file = item["image_filename"]
         
         # Construct the relative path to images directory for the html preview
-        local_img_path = f"../{IMAGE_DIR}/{image_file}"
+        local_img_path = f"{IMAGE_DIR}/{image_file}"
         
         # Color coding borders by cluster (art movement)
         border_color = CLUSTER_COLORS.get(cluster, "#95A5A6")
