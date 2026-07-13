@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - images/
+    - data/
+    - lib/
+    - art_semantic_network.html
 
 website:
   title: "MET Drawings Semantic Network"
