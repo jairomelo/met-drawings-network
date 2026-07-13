@@ -58,6 +58,7 @@ MET Museum do not require API users to register or obtain an API key to use the 
 
 - The project relies on Python or R for data analysis and visualization (e.g., pyvis or visNetwork).
 - When using `pyvis` or `visNetwork`, remember that the `title` attribute of a node accepts raw HTML. Use this to construct rich hover tooltips containing images and metadata.
+- **HTML Tooltip Rendering in Vis.js:** To prevent Vis.js from escaping raw HTML strings in the hover tooltips (and rendering them as raw text), post-process the generated HTML to inject a Javascript script that converts string `title` elements of nodes and edges into actual browser DOM `div` elements (e.g. using `document.createElement("div")`) right before the network is drawn.
 - To display images as nodes, set `shape="image"` and map the `image` attribute to the local file path.
 - The final output should be a Quarto document (`.qmd`) containing the analysis and embedding the interactive HTML network graph.
 - **Static iframe Embedding over R blocks:** When embedding a standalone HTML network file (e.g. from `pyvis`) in a Quarto document, avoid using active `{r}` blocks to output the iframe. This triggers active R-runtime checks (e.g., searching for `Rscript`) during compilation, which will crash deployment environments that lack R. Instead, use static markdown/HTML blocks directly (e.g., raw `<iframe>` wrapped inside layout divs).
