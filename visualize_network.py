@@ -132,6 +132,9 @@ def generate_network():
     # Use Barneshut which is fast and handles clustered images smoothly
     net.set_options("""
     var options = {
+      "edges": {
+        "smooth": true
+      },
       "physics": {
         "barnesHut": {
           "gravitationalConstant": -12000,
@@ -141,7 +144,11 @@ def generate_network():
           "damping": 0.85,
           "avoidOverlap": 0.75
         },
-        "minVelocity": 0.75
+        "minVelocity": 0.75,
+        "stabilization": {
+          "enabled": true,
+          "iterations": 200
+        }
       },
       "interaction": {
         "hover": true,
@@ -184,9 +191,30 @@ def generate_network():
         marker = "data = {nodes: nodes, edges: edges};"
         if marker in html_content:
             html_content = html_content.replace(marker, tooltip_dom_script + "\n                  " + marker)
+            
+            # Inject physics optimization: turn off after stabilization
+            marker2 = "network = new vis.Network(container, data, options);"
+            physics_script = """
+                  network.on("stabilizationIterationsDone", function () {
+                      network.setOptions( { physics: false } );
+                  });
+            """
+            if marker2 in html_content:
+                html_content = html_content.replace(marker2, marker2 + "\n" + physics_script)
+
             with open(OUTPUT_HTML_PATH, "w", encoding="utf-8") as f:
                 f.write(html_content)
-            print("Successfully injected custom DOM parser for HTML tooltips.")
+            print("Successfully injected custom DOM parser for HTML tooltips and physics optimization.")
+            
+            # Create a clean fragment for Quarto without html/head/body tags
+            fragment = html_content.replace("<html>", "").replace("</html>", "")
+            fragment = fragment.replace("<head>", "").replace("</head>", "")
+            fragment = fragment.replace("<body>", "").replace("</body>", "")
+            fragment = fragment.replace('<meta charset="utf-8">', "")
+            
+            with open("network_fragment.html", "w", encoding="utf-8") as f:
+                f.write("```{=html}\n" + fragment + "\n```")
+            print("Successfully created network_fragment.html for Quarto inclusion.")
         else:
             print("Warning: Tooltip marker not found in output HTML. Checking formatting.")
 
