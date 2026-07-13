@@ -1,0 +1,1611 @@
+[
+  {
+    "object_id": 334816,
+    "title": "Music-Making Angels",
+    "artist": "Albrecht Dürer",
+    "date": "1521",
+    "place": "Place Unknown",
+    "medium": "Pen and brown ink",
+    "description": "Pen and brown ink",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": true,
+    "cluster": "German Renaissance",
+    "image_filename": "met_334816.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP802950.jpg",
+    "dominant_palette": [
+      "warm sepia",
+      "creamy paper tone",
+      "faded ash gray"
+    ],
+    "visual_concepts": [
+      "winged angels",
+      "lute",
+      "cornett",
+      "musical instruments",
+      "putti",
+      "sheet music"
+    ],
+    "mood": "harmonious",
+    "research_themes": [
+      "Northern Renaissance draftsmanship",
+      "iconography of sacred music",
+      "late style of Albrecht Dürer",
+      "preparatory drawings and workshop practices"
+    ]
+  },
+  {
+    "object_id": 336228,
+    "title": "Melencolia I",
+    "artist": "Albrecht Dürer",
+    "date": "1514",
+    "place": "Place Unknown",
+    "medium": "Engraving",
+    "description": "Engraving",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": true,
+    "cluster": "German Renaissance",
+    "image_filename": "met_336228.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP820348.jpg",
+    "dominant_palette": [
+      "deep charcoal",
+      "warm ivory",
+      "silver grey"
+    ],
+    "visual_concepts": [
+      "winged allegorical figure",
+      "polyhedron",
+      "hourglass",
+      "magic square",
+      "sleeping dog",
+      "putto",
+      "scales",
+      "comet",
+      "carpentry tools"
+    ],
+    "mood": "brooding and contemplative",
+    "research_themes": [
+      "temperament of melancholy",
+      "renaissance humanism",
+      "mathematics and geometry",
+      "creative frustration",
+      "astrology and cosmology"
+    ]
+  },
+  {
+    "object_id": 336222,
+    "title": "Adam and Eve",
+    "artist": "Albrecht Dürer",
+    "date": "1504",
+    "place": "Place Unknown",
+    "medium": "Engraving",
+    "description": "Engraving",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": true,
+    "cluster": "German Renaissance",
+    "image_filename": "met_336222.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816026.jpg",
+    "dominant_palette": [
+      "velvety charcoal",
+      "creamy off-white",
+      "cool silver-grey"
+    ],
+    "visual_concepts": [
+      "nude figures",
+      "serpent",
+      "tree of knowledge",
+      "cat and mouse",
+      "stag",
+      "hare",
+      "parrot",
+      "tablet with signature"
+    ],
+    "mood": "tense",
+    "research_themes": [
+      "the fall of man",
+      "classical human proportions",
+      "four humors",
+      "northern renaissance printmaking",
+      "ideal beauty"
+    ]
+  },
+  {
+    "object_id": 388376,
+    "title": "Embroidery Pattern with Seven Six-pointed Stars and Four Corner Pieces",
+    "artist": "Albrecht Dürer",
+    "date": "before 1521",
+    "place": "Place Unknown",
+    "medium": "Woodcut",
+    "description": "Woodcut",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": true,
+    "cluster": "German Renaissance",
+    "image_filename": "met_388376.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816472.jpg",
+    "dominant_palette": [
+      "deep charcoal",
+      "warm ivory",
+      "pale cream"
+    ],
+    "visual_concepts": [
+      "interlace pattern",
+      "knotwork",
+      "six-pointed star",
+      "geometric rosette",
+      "foliate cornerpiece",
+      "embroidery design"
+    ],
+    "mood": "harmonious",
+    "research_themes": [
+      "Islamic influence on Renaissance art",
+      "mathematical geometry in art",
+      "applied and decorative arts",
+      "printmaking as design dissemination",
+      "Albrecht Dürer's knots"
+    ]
+  },
+  {
+    "object_id": 391070,
+    "title": "Man of Sorrows with Arms Outstretched",
+    "artist": "Albrecht Dürer",
+    "date": "ca. 1500",
+    "place": "Place Unknown",
+    "medium": "Engraving",
+    "description": "Engraving",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_391070.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP815374.jpg",
+    "dominant_palette": [
+      "warm cream",
+      "charcoal black",
+      "pale sepia"
+    ],
+    "visual_concepts": [
+      "Jesus Christ",
+      "crown of thorns",
+      "stigmata",
+      "crucifixion cross",
+      "skull",
+      "whip",
+      "loincloth",
+      "dice"
+    ],
+    "mood": "melancholic",
+    "research_themes": [
+      "Christian iconography",
+      "Passion of Christ",
+      "memento mori",
+      "Northern Renaissance printmaking",
+      "devotional art"
+    ]
+  },
+  {
+    "object_id": 363929,
+    "title": "Adam and Eve",
+    "artist": "Albrecht Dürer",
+    "date": "1504",
+    "place": "Place Unknown",
+    "medium": "Engraving",
+    "description": "Engraving",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_363929.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP820351.jpg",
+    "dominant_palette": [
+      "deep charcoal",
+      "creamy parchment",
+      "silver gray"
+    ],
+    "visual_concepts": [
+      "nude figures",
+      "serpent",
+      "forbidden fruit",
+      "animals",
+      "forest",
+      "tablet",
+      "cat and mouse",
+      "elk",
+      "parrot"
+    ],
+    "mood": "tense",
+    "research_themes": [
+      "classical proportion",
+      "the fall of man",
+      "temperaments and humors",
+      "Northern Renaissance humanism",
+      "printmaking innovation"
+    ]
+  },
+  {
+    "object_id": 387806,
+    "title": "IIllustration from Dürer's \"Vier Bucher von Menslicher Proportion\"",
+    "artist": "Albrecht Dürer",
+    "date": "1528",
+    "place": "Place Unknown",
+    "medium": "Woodcut",
+    "description": "Woodcut",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_387806.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816818.jpg",
+    "dominant_palette": [
+      "aged cream",
+      "charcoal black",
+      "pale sepia"
+    ],
+    "visual_concepts": [
+      "human figure",
+      "anatomical diagram",
+      "grid lines",
+      "profile view",
+      "frontal view",
+      "German typography",
+      "proportion study"
+    ],
+    "mood": "analytical",
+    "research_themes": [
+      "humanism",
+      "scientific inquiry",
+      "renaissance anatomy",
+      "mathematical proportion",
+      "artistic theory"
+    ]
+  },
+  {
+    "object_id": 383756,
+    "title": "The Martyrdom of Saint Catherine",
+    "artist": "Albrecht Dürer",
+    "date": "ca. 1498",
+    "place": "Place Unknown",
+    "medium": "Black ink on carved pearwood",
+    "description": "Black ink on carved pearwood",
+    "culture": "",
+    "classification": "Blocks",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_383756.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-29359-001.jpg",
+    "dominant_palette": [
+      "coal black",
+      "charcoal gray",
+      "eggshell white"
+    ],
+    "visual_concepts": [
+      "woodblock",
+      "kneeling martyr",
+      "executioner",
+      "raised sword",
+      "spiked wheel",
+      "divine intervention",
+      "landscape"
+    ],
+    "mood": "dramatic",
+    "research_themes": [
+      "printmaking technology",
+      "Christian martyrology",
+      "German Renaissance",
+      "devotional art",
+      "the relief process"
+    ]
+  },
+  {
+    "object_id": 336657,
+    "title": "Underweysung der Messung (Nuremberg, 1538)",
+    "artist": "Albrecht Dürer",
+    "date": "1538, 1527, 1532",
+    "place": "Place Unknown",
+    "medium": "Woodcuts",
+    "description": "Woodcuts",
+    "culture": "",
+    "classification": "Books",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_336657.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-41182-001.jpg",
+    "dominant_palette": [
+      "warm cream",
+      "charcoal black",
+      "dusty brown"
+    ],
+    "visual_concepts": [
+      "architectural diagrams",
+      "geometric columns",
+      "molding profiles",
+      "gothic tracery",
+      "german typography",
+      "woodcut illustrations"
+    ],
+    "mood": "intellectual",
+    "research_themes": [
+      "scientific inquiry",
+      "renaissance humanism",
+      "applied geometry",
+      "architectural theory",
+      "history of printing",
+      "northern renaissance"
+    ]
+  },
+  {
+    "object_id": 349059,
+    "title": "Underweysung der Messung/ mit dem Zirckel und richtscheyt",
+    "artist": "Albrecht Dürer",
+    "date": "1525",
+    "place": "Place Unknown",
+    "medium": "Woodcut",
+    "description": "Woodcut",
+    "culture": "",
+    "classification": "Books",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_349059.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-42136-001.jpg",
+    "dominant_palette": [
+      "creamy ivory",
+      "charcoal black",
+      "gilded bronze"
+    ],
+    "visual_concepts": [
+      "geometric diagram",
+      "typography",
+      "spiral projection",
+      "calligraphy",
+      "open book",
+      "measuring system"
+    ],
+    "mood": "intellectual",
+    "research_themes": [
+      "scientific inquiry",
+      "humanism",
+      "mathematical proportion",
+      "renaissance perspective",
+      "history of printing"
+    ]
+  },
+  {
+    "object_id": 396910,
+    "title": "Coat of Arms of Albrecht Dürer",
+    "artist": "Albrecht Dürer",
+    "date": "1523",
+    "place": "Place Unknown",
+    "medium": "Woodcut",
+    "description": "Woodcut",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_396910.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816462.jpg",
+    "dominant_palette": [
+      "ivory white",
+      "charcoal black",
+      "pale sepia"
+    ],
+    "visual_concepts": [
+      "coat of arms",
+      "heraldic shield",
+      "wings",
+      "helmet",
+      "bust of a Moor",
+      "monogram",
+      "scrollwork",
+      "open door",
+      "foliage"
+    ],
+    "mood": "noble",
+    "research_themes": [
+      "heraldry and genealogy",
+      "identity and self-representation",
+      "northern renaissance printmaking",
+      "symbolism of the door",
+      "depictions of African figures in Renaissance art"
+    ]
+  },
+  {
+    "object_id": 375913,
+    "title": "Man of Sorrows with Hands Bound",
+    "artist": "Albrecht Dürer",
+    "date": "1512",
+    "place": "Place Unknown",
+    "medium": "Drypoint",
+    "description": "Drypoint",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_375913.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP815714.jpg",
+    "dominant_palette": [
+      "warm cream",
+      "charcoal black",
+      "pale sepia"
+    ],
+    "visual_concepts": [
+      "Jesus Christ",
+      "crown of thorns",
+      "bound hands",
+      "halo",
+      "drapery",
+      "monogram",
+      "tree",
+      "barren landscape"
+    ],
+    "mood": "melancholic",
+    "research_themes": [
+      "Christian iconography",
+      "The Passion of Christ",
+      "Northern Renaissance printmaking",
+      "devotional art",
+      "human suffering"
+    ]
+  },
+  {
+    "object_id": 396899,
+    "title": "The Patron Saints of Austria",
+    "artist": "Albrecht Dürer",
+    "date": "1922",
+    "place": "Place Unknown",
+    "medium": "Woodcut; Dershau restrike, 1922",
+    "description": "Woodcut; Dershau restrike, 1922",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_396899.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816428.jpg",
+    "dominant_palette": [
+      "stark black",
+      "warm ivory",
+      "pale cream"
+    ],
+    "visual_concepts": [
+      "saints",
+      "armor",
+      "bishops mitre",
+      "halos",
+      "shields",
+      "croziers",
+      "latin inscriptions"
+    ],
+    "mood": "solemn",
+    "research_themes": [
+      "holy roman empire",
+      "patronage",
+      "hagiography",
+      "northern renaissance printmaking",
+      "dynastic legitimacy"
+    ]
+  },
+  {
+    "object_id": 359916,
+    "title": "Saint Anthony Reading",
+    "artist": "Albrecht Dürer",
+    "date": "1519",
+    "place": "Place Unknown",
+    "medium": "Engraving",
+    "description": "Engraving",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_359916.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP815905.jpg",
+    "dominant_palette": [
+      "deep charcoal",
+      "warm cream",
+      "pale sepia"
+    ],
+    "visual_concepts": [
+      "Saint Anthony",
+      "monk's cowl",
+      "fortified city",
+      "Tau cross",
+      "reading book",
+      "hat",
+      "medieval architecture"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "hermitic life",
+      "christian humanism",
+      "monasticism",
+      "urban vs rural dichotomy",
+      "northern renaissance printmaking"
+    ]
+  },
+  {
+    "object_id": 391245,
+    "title": "Saint Paul",
+    "artist": "Albrecht Dürer",
+    "date": "1514",
+    "place": "Place Unknown",
+    "medium": "Engraving",
+    "description": "Engraving",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "German Renaissance",
+    "image_filename": "met_391245.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP815762.jpg",
+    "dominant_palette": [
+      "creamy off-white",
+      "charcoal black",
+      "warm sepia"
+    ],
+    "visual_concepts": [
+      "Saint Paul",
+      "halo",
+      "open book",
+      "sword",
+      "drapery",
+      "monogram",
+      "seascape"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "apostolic tradition",
+      "Northern Renaissance printmaking",
+      "theology and scripture",
+      "martyrdom iconography",
+      "monogram branding"
+    ]
+  },
+  {
+    "object_id": 354631,
+    "title": "Christ Crucified between the Two Thieves: The Three Crosses",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "1653",
+    "place": "Place Unknown",
+    "medium": "Drypoint printed on vellum",
+    "description": "Drypoint printed on vellum",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": true,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_354631.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DT11821.jpg",
+    "dominant_palette": [
+      "velvety black",
+      "warm sepia",
+      "aged ivory"
+    ],
+    "visual_concepts": [
+      "crucifixion",
+      "horseback riders",
+      "divine light",
+      "grieving figures",
+      "soldiers",
+      "three crosses"
+    ],
+    "mood": "dramatic",
+    "research_themes": [
+      "chiaroscuro",
+      "scriptural narrative",
+      "printmaking innovation",
+      "redemption and judgment",
+      "seventeenth-century Dutch Protestantism"
+    ]
+  },
+  {
+    "object_id": 337063,
+    "title": "Reclining Female Nude",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "1658",
+    "place": "Place Unknown",
+    "medium": "Etching, drypoint, and engraving on Japanese paper; second of six states",
+    "description": "Etching, drypoint, and engraving on Japanese paper; second of six states",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": true,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_337063.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP815606.jpg",
+    "dominant_palette": [
+      "deep charcoal",
+      "warm sepia",
+      "aged cream"
+    ],
+    "visual_concepts": [
+      "reclining female nude",
+      "drapery",
+      "chiaroscuro",
+      "back view"
+    ],
+    "mood": "intimate",
+    "research_themes": [
+      "academic study of the nude",
+      "printmaking techniques and states",
+      "realism versus idealization",
+      "domestic interiority"
+    ]
+  },
+  {
+    "object_id": 337491,
+    "title": "Cottage among Trees",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "ca. 1650",
+    "place": "Place Unknown",
+    "medium": "Pen and brown ink, brush and brown wash, on paper washed with brown",
+    "description": "Pen and brown ink, brush and brown wash, on paper washed with brown",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": true,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_337491.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP832659.jpg",
+    "dominant_palette": [
+      "warm beige",
+      "dark bistre",
+      "muted cream"
+    ],
+    "visual_concepts": [
+      "thatched cottage",
+      "deciduous trees",
+      "wooden fence",
+      "rural landscape",
+      "foliage"
+    ],
+    "mood": "serene",
+    "research_themes": [
+      "Dutch Golden Age landscape",
+      "observational drawing",
+      "vernacular architecture",
+      "pastoral simplicity"
+    ]
+  },
+  {
+    "object_id": 337632,
+    "title": "Reading the News at the Weavers' Cottage",
+    "artist": "Adriaen van Ostade",
+    "date": "1673",
+    "place": "Place Unknown",
+    "medium": "Pen and brown ink, watercolor, white heightening, over traces of graphite; framing lines by the artist (?) in pen and brown ink and gold",
+    "description": "Pen and brown ink, watercolor, white heightening, over traces of graphite; framing lines by the artist (?) in pen and brown ink and gold",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": true,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_337632.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP800544.jpg",
+    "dominant_palette": [
+      "muted earth-brown",
+      "soft slate-blue",
+      "pale dusty-rose"
+    ],
+    "visual_concepts": [
+      "reading a newspaper",
+      "weaving loom",
+      "cottage interior",
+      "spinning wheel",
+      "feeding a child",
+      "peasant life"
+    ],
+    "mood": "tranquil",
+    "research_themes": [
+      "Dutch Golden Age genre scene",
+      "domesticity",
+      "literacy in the 17th century",
+      "peasant industry",
+      "proletarian labor"
+    ]
+  },
+  {
+    "object_id": 391614,
+    "title": "The Old Bearded Man in a High Fur Cap, with Eyes Closed",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "ca. 1635",
+    "place": "Place Unknown",
+    "medium": "Etching",
+    "description": "Etching",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391614.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814538.jpg",
+    "dominant_palette": [
+      "deep charcoal",
+      "warm beige",
+      "soft cream"
+    ],
+    "visual_concepts": [
+      "old man",
+      "fur cap",
+      "beard",
+      "portrait",
+      "chiaroscuro"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "aging",
+      "tronie",
+      "printmaking techniques",
+      "human psychology",
+      "seventeenth-century Dutch art"
+    ]
+  },
+  {
+    "object_id": 391549,
+    "title": "The Angel Appearing to the Shepherds",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "",
+    "place": "Place Unknown",
+    "medium": "Etching",
+    "description": "Etching",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391549.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814424.jpg",
+    "dominant_palette": [
+      "velvety black",
+      "warm charcoal",
+      "aged ivory"
+    ],
+    "visual_concepts": [
+      "divine revelation",
+      "putti",
+      "startled livestock",
+      "nocturnal landscape",
+      "shepherds",
+      "winged angel",
+      "celestial light"
+    ],
+    "mood": "dramatic",
+    "research_themes": [
+      "chiaroscuro",
+      "baroque theatricality",
+      "protestant biblical iconography",
+      "printmaking innovation",
+      "nature and the supernatural"
+    ]
+  },
+  {
+    "object_id": 391544,
+    "title": "Rembrandt with Raised Sabre",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "1634",
+    "place": "Place Unknown",
+    "medium": "Etching with touches of burin",
+    "description": "Etching with touches of burin",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391544.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814408.jpg",
+    "dominant_palette": [
+      "deep charcoal black",
+      "warm cream",
+      "amber foxing spots"
+    ],
+    "visual_concepts": [
+      "self-portrait",
+      "sabre",
+      "beret with plume",
+      "fur collar",
+      "gloved hand",
+      "hatching and cross-hatching"
+    ],
+    "mood": "confrontational",
+    "research_themes": [
+      "self-fashioning",
+      "the artist in guise",
+      "Dutch Golden Age printmaking",
+      "historicized costume",
+      "tronie"
+    ]
+  },
+  {
+    "object_id": 391630,
+    "title": "Old Man with a Divided Fur Cap",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "",
+    "place": "Place Unknown",
+    "medium": "Etching",
+    "description": "Etching",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391630.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814565.jpg",
+    "dominant_palette": [
+      "warm ivory",
+      "charcoal black",
+      "biscuit brown"
+    ],
+    "visual_concepts": [
+      "bearded old man",
+      "divided fur cap",
+      "portrait",
+      "cloak",
+      "artist signature"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "tronie",
+      "Dutch Golden Age printmaking",
+      "studies of old age",
+      "chiaroscuro",
+      "exotic or historical costume"
+    ]
+  },
+  {
+    "object_id": 391574,
+    "title": "Jan Uytenbogaert",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "",
+    "place": "Place Unknown",
+    "medium": "Etching and drypoint",
+    "description": "Etching and drypoint",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391574.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814531.jpg",
+    "dominant_palette": [
+      "velvety charcoal",
+      "warm cream",
+      "sepia brown"
+    ],
+    "visual_concepts": [
+      "ruff collar",
+      "fur-trimmed robe",
+      "open book",
+      "clerical portrait",
+      "skullcap",
+      "latin inscription"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "the Protestant Reformation",
+      "Remonstrant theology",
+      "scholarly authority",
+      "seventeenth-century Dutch printmaking",
+      "chiaroscuro"
+    ]
+  },
+  {
+    "object_id": 391554,
+    "title": "The Stoning of St. Stephen",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "1635",
+    "place": "Place Unknown",
+    "medium": "Etching",
+    "description": "Etching",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391554.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814395.jpg",
+    "dominant_palette": [
+      "warm ivory",
+      "charcoal black",
+      "pale sepia"
+    ],
+    "visual_concepts": [
+      "martyrdom",
+      "stoning",
+      "saint",
+      "crowd of onlookers",
+      "ruined architecture",
+      "divine light"
+    ],
+    "mood": "turbulent",
+    "research_themes": [
+      "early Christian history",
+      "Protestant vs. Catholic printmaking",
+      "depiction of violence",
+      "chiaroscuro in etching"
+    ]
+  },
+  {
+    "object_id": 785501,
+    "title": "The Circumcision",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "ca. 1625",
+    "place": "Place Unknown",
+    "medium": "Etching",
+    "description": "Etching",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_785501.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP880619.jpg",
+    "dominant_palette": [
+      "warm ivory",
+      "charcoal black",
+      "pale sepia"
+    ],
+    "visual_concepts": [
+      "infant christ",
+      "high priest",
+      "spectators",
+      "temple interior",
+      "religious ritual",
+      "mitre",
+      "drapery"
+    ],
+    "mood": "solemn",
+    "research_themes": [
+      "biblical narrative",
+      "jewish ritual in christian art",
+      "dutch golden age printmaking",
+      "the covenant",
+      "rembrandt's early etching style"
+    ]
+  },
+  {
+    "object_id": 391635,
+    "title": "The Presentation in the Temple: Oblong Plate",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "",
+    "place": "Place Unknown",
+    "medium": "Etching",
+    "description": "Etching",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391635.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814568.jpg",
+    "dominant_palette": [
+      "deep charcoal black",
+      "warm cream paper",
+      "soft sepia brown"
+    ],
+    "visual_concepts": [
+      "Simeon holding Christ",
+      "High Priest",
+      "Virgin Mary",
+      "temple architecture",
+      "bystanders in turbans",
+      "dove in a ray of light",
+      "dog",
+      "halo of light"
+    ],
+    "mood": "reverent",
+    "research_themes": [
+      "chiaroscuro",
+      "Protestant biblical interpretation",
+      "devotion and prophecy",
+      "Dutch Golden Age printmaking",
+      "Rembrandt's dark manner"
+    ]
+  },
+  {
+    "object_id": 391685,
+    "title": "Cornelis Claesz Anslo, Preacher",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "",
+    "place": "Place Unknown",
+    "medium": "Etching and drypoint; third of five states",
+    "description": "Etching and drypoint; third of five states",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391685.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814578.jpg",
+    "dominant_palette": [
+      "velvety charcoal",
+      "warm cream",
+      "soft sepia"
+    ],
+    "visual_concepts": [
+      "preacher",
+      "theologian",
+      "broad-brimmed hat",
+      "fur-trimmed coat",
+      "open book",
+      "quill pen",
+      "ruff collar",
+      "gesturing hand"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "Protestant Reformation",
+      "Mennonite theology",
+      "scholarly life",
+      "the spoken word vs. the written word",
+      "seventeenth-century Dutch portraiture",
+      "chiaroscuro printmaking"
+    ]
+  },
+  {
+    "object_id": 391628,
+    "title": "The Beheading of John the Baptist",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "",
+    "place": "Place Unknown",
+    "medium": "Etching and drypoint",
+    "description": "Etching and drypoint",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_391628.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP814556.jpg",
+    "dominant_palette": [
+      "deep charcoal",
+      "warm cream",
+      "earthy sepia"
+    ],
+    "visual_concepts": [
+      "kneeling figure",
+      "executioner",
+      "sword",
+      "salome",
+      "spectators",
+      "platter",
+      "chasing light",
+      "biblical scene"
+    ],
+    "mood": "tense",
+    "research_themes": [
+      "martyrdom",
+      "chiaroscuro",
+      "protestant biblical interpretation",
+      "seventeenth-century printmaking",
+      "justice and violence"
+    ]
+  },
+  {
+    "object_id": 371058,
+    "title": "Descent from the Cross",
+    "artist": "Rembrandt (Rembrandt van Rijn)",
+    "date": "1633",
+    "place": "Place Unknown",
+    "medium": "Etching and burin",
+    "description": "Etching and burin",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "Dutch Golden Age",
+    "image_filename": "met_371058.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP815712.jpg",
+    "dominant_palette": [
+      "velvety charcoal",
+      "warm cream",
+      "sepia brown"
+    ],
+    "visual_concepts": [
+      "the crucifixion",
+      "wooden ladders",
+      "shroud",
+      "divine light beam",
+      "onlookers in turbans",
+      "limp body"
+    ],
+    "mood": "somber",
+    "research_themes": [
+      "chiaroscuro",
+      "protestant biblical interpretation",
+      "human suffering and empathy",
+      "printmaking innovation"
+    ]
+  },
+  {
+    "object_id": 333915,
+    "title": "The Connoisseur",
+    "artist": "Honoré Daumier",
+    "date": "ca. 1860–65",
+    "place": "Place Unknown",
+    "medium": "Pen and ink, wash, watercolor, lithographic crayon, and gouache over black chalk on wove paper",
+    "description": "Pen and ink, wash, watercolor, lithographic crayon, and gouache over black chalk on wove paper",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": true,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_333915.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/dp29.100.200.R.jpg",
+    "dominant_palette": [
+      "sepia brown",
+      "muted olive green",
+      "dusty charcoal gray"
+    ],
+    "visual_concepts": [
+      "art collector",
+      "armchair",
+      "classical sculpture",
+      "paintings",
+      "sculpture bust",
+      "art gallery",
+      "portfolio"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "connoisseurship",
+      "bourgeois material culture",
+      "art market and collecting",
+      "nineteenth-century interiority",
+      "satire and realism"
+    ]
+  },
+  {
+    "object_id": 359362,
+    "title": "Landscape",
+    "artist": "Edgar Degas",
+    "date": "1892",
+    "place": "Place Unknown",
+    "medium": "Monotype in oil colors, heightened with pastel",
+    "description": "Monotype in oil colors, heightened with pastel",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": true,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_359362.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP815958.jpg",
+    "dominant_palette": [
+      "pale dusty pink",
+      "muted sage green",
+      "soft slate blue"
+    ],
+    "visual_concepts": [
+      "rolling hills",
+      "valley",
+      "winding path",
+      "mist",
+      "shrubbery"
+    ],
+    "mood": "dreamy",
+    "research_themes": [
+      "monotype and pastel integration",
+      "atmospheric abstraction",
+      "French Impressionist landscape",
+      "memory versus observation",
+      "sublimated nature"
+    ]
+  },
+  {
+    "object_id": 333813,
+    "title": "Édouard Manet, Seated, Holding His Hat",
+    "artist": "Edgar Degas",
+    "date": "ca. 1868",
+    "place": "Place Unknown",
+    "medium": "Graphite and black chalk",
+    "description": "Graphite and black chalk",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": true,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_333813.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805813.jpg",
+    "dominant_palette": [
+      "graphite gray",
+      "pale cream paper",
+      "charcoal black"
+    ],
+    "visual_concepts": [
+      "portrait",
+      "seated man",
+      "bowler hat",
+      "frock coat",
+      "wooden chair",
+      "beard and mustache"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "artistic friendship",
+      "impressionist portraits",
+      "flâneur culture",
+      "19th-century French realism",
+      "draftsmanship and study"
+    ]
+  },
+  {
+    "object_id": 333990,
+    "title": "Moulin Rouge: La Goulue",
+    "artist": "Henri de Toulouse-Lautrec",
+    "date": "1891",
+    "place": "Place Unknown",
+    "medium": "Lithograph printed in four colors; three sheets of wove paper",
+    "description": "Lithograph printed in four colors; three sheets of wove paper",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": true,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_333990.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-42747-001.jpg",
+    "dominant_palette": [
+      "bold vermilion",
+      "acid yellow",
+      "charcoal black"
+    ],
+    "visual_concepts": [
+      "cancan dancer",
+      "spectators",
+      "top hat",
+      "polka dot dress",
+      "petticoats",
+      "advertisement typography",
+      "silhouette"
+    ],
+    "mood": "hedonistic",
+    "research_themes": [
+      "fin-de-siècle Paris",
+      "cabaret culture",
+      "lithographic printmaking",
+      "bourgeois leisure",
+      "japonisme in graphic design"
+    ]
+  },
+  {
+    "object_id": 646909,
+    "title": "Un Directeur de n'Importe quel Théâtre, from \"Croquis d'Été\"",
+    "artist": "Honoré Daumier",
+    "date": "August 25, 1856",
+    "place": "Place Unknown",
+    "medium": "Lithograph; second state of two (Delteil)",
+    "description": "Lithograph; second state of two (Delteil)",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_646909.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP876515.jpg",
+    "dominant_palette": [
+      "creamy newsprint",
+      "charcoal grey",
+      "warm white"
+    ],
+    "visual_concepts": [
+      "theater director",
+      "thermometer",
+      "open window",
+      "balcony railing",
+      "crowd",
+      "gesturing man",
+      "interior room"
+    ],
+    "mood": "satirical",
+    "research_themes": [
+      "nineteenth-century caricature",
+      "French print culture",
+      "urban life in Paris",
+      "theatrical commerce",
+      "impact of weather on society"
+    ]
+  },
+  {
+    "object_id": 370612,
+    "title": "Two Atlantes in Conversation",
+    "artist": "Honoré Daumier",
+    "date": "ca. 1855",
+    "place": "Place Unknown",
+    "medium": "Graphite on laid paper",
+    "description": "Graphite on laid paper",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_370612.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805807.jpg",
+    "dominant_palette": [
+      "ivory paper",
+      "graphite grey",
+      "faint silver"
+    ],
+    "visual_concepts": [
+      "atlantes",
+      "architectural support",
+      "male nude",
+      "sculpture study",
+      "conversation",
+      "caricature",
+      "classical drapery"
+    ],
+    "mood": "satirical",
+    "research_themes": [
+      "academic draftsmanship",
+      "classical reception",
+      "anthropomorphism of architecture",
+      "nineteenth-century french caricature",
+      "labor and burden"
+    ]
+  },
+  {
+    "object_id": 334285,
+    "title": "Saint Sebastian",
+    "artist": "Honoré Daumier",
+    "date": "1849–50",
+    "place": "Place Unknown",
+    "medium": "Charcoal on wove paper",
+    "description": "Charcoal on wove paper",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_334285.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805802.jpg",
+    "dominant_palette": [
+      "warm beige",
+      "charcoal black",
+      "dusty cream"
+    ],
+    "visual_concepts": [
+      "Saint Sebastian",
+      "putti",
+      "martyrdom",
+      "tree trunk",
+      "arrows",
+      "cherubs"
+    ],
+    "mood": "spiritual",
+    "research_themes": [
+      "sacred art",
+      "martyrdom and suffering",
+      "religious devotion",
+      "nineteenth-century French drawing"
+    ]
+  },
+  {
+    "object_id": 385982,
+    "title": "A Summer Sketch: Parisians in the Countryside",
+    "artist": "Honoré Daumier",
+    "date": "1857",
+    "place": "Place Unknown",
+    "medium": "Lithograph on wove paper (newsprint)",
+    "description": "Lithograph on wove paper (newsprint)",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_385982.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP210701.jpg",
+    "dominant_palette": [
+      "warm cream",
+      "charcoal black",
+      "faded sepia"
+    ],
+    "visual_concepts": [
+      "bourgeois couple",
+      "top hat",
+      "walking stick",
+      "crinoline dress",
+      "haystacks",
+      "caricature",
+      "rural landscape"
+    ],
+    "mood": "satirical",
+    "research_themes": [
+      "nineteenth-century class divide",
+      "urban vs. rural dynamics",
+      "French caricature and lithography",
+      "bourgeois identity and anxiety",
+      "rise of leisure and tourism"
+    ]
+  },
+  {
+    "object_id": 366830,
+    "title": "Figure Studies, Including Scenes of Interrogation",
+    "artist": "Honoré Daumier",
+    "date": "ca. 1860",
+    "place": "Place Unknown",
+    "medium": "Pen and ink, brush and wash over touches of black chalk on pale blue-gray laid paper",
+    "description": "Pen and ink, brush and wash over touches of black chalk on pale blue-gray laid paper",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_366830.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP112851.jpg",
+    "dominant_palette": [
+      "creamy off-white",
+      "charcoal black",
+      "pale dilute grey"
+    ],
+    "visual_concepts": [
+      "gestural figures",
+      "courtroom scenes",
+      "interrogation",
+      "sketches",
+      "caricature studies"
+    ],
+    "mood": "tense",
+    "research_themes": [
+      "social satire",
+      "the legal system",
+      "nineteenth-century realism",
+      "power dynamics",
+      "artistic process"
+    ]
+  },
+  {
+    "object_id": 333888,
+    "title": "Don Quixote and Sancho Panza",
+    "artist": "Honoré Daumier",
+    "date": "19th century",
+    "place": "Place Unknown",
+    "medium": "Black chalk and gray wash on wove paper",
+    "description": "Black chalk and gray wash on wove paper",
+    "culture": "",
+    "classification": "Drawings",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_333888.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP805801.jpg",
+    "dominant_palette": [
+      "charcoal gray",
+      "pale ivory",
+      "earthy sepia"
+    ],
+    "visual_concepts": [
+      "knight",
+      "horse",
+      "donkey",
+      "lance",
+      "shield",
+      "squire",
+      "arid landscape"
+    ],
+    "mood": "contemplative",
+    "research_themes": [
+      "literary adaptation",
+      "chivalric romance",
+      "quixotism",
+      "french realism",
+      "duality of human nature"
+    ]
+  },
+  {
+    "object_id": 355839,
+    "title": "À Cherbourg, from \"Actualités\"",
+    "artist": "Honoré Daumier",
+    "date": "August 11, 1858",
+    "place": "Place Unknown",
+    "medium": "Lithograph on newsprint; second state of two (Delteil)",
+    "description": "Lithograph on newsprint; second state of two (Delteil)",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_355839.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP876737.jpg",
+    "dominant_palette": [
+      "creamy newsprint",
+      "charcoal black",
+      "soft slate grey"
+    ],
+    "visual_concepts": [
+      "tents",
+      "campers",
+      "harbor",
+      "sailing ships",
+      "caricature",
+      "seaside lodging"
+    ],
+    "mood": "humorous",
+    "research_themes": [
+      "19th-century French satire",
+      "tourism and travel culture",
+      "social class and domestic life",
+      "lithography as mass media",
+      "caricature of daily life"
+    ]
+  },
+  {
+    "object_id": 351271,
+    "title": "Dismayed with her legacy, published in \"L'Album du Siège\"",
+    "artist": "Honoré Daumier",
+    "date": "1871",
+    "place": "Place Unknown",
+    "medium": "Lithograph on wove paper; third state of three (Delteil)",
+    "description": "Lithograph on wove paper; third state of three (Delteil)",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_351271.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/270320.jpg",
+    "dominant_palette": [
+      "stark charcoal",
+      "ash grey",
+      "faded cream paper"
+    ],
+    "visual_concepts": [
+      "shrouded female figure",
+      "battlefield",
+      "corpses",
+      "the year 1871",
+      "draped mourning attire",
+      "desolate landscape"
+    ],
+    "mood": "profoundly grim",
+    "research_themes": [
+      "Franco-Prussian War",
+      "Paris Commune",
+      "political allegory",
+      "national trauma",
+      "mourning and loss",
+      "caricature and lithography"
+    ]
+  },
+  {
+    "object_id": 625297,
+    "title": "\"Une péroraison à la Démosthène,\" plate 33 from Les Gens de Justice",
+    "artist": "Honoré Daumier",
+    "date": "November 1, 1847",
+    "place": "Place Unknown",
+    "medium": "Lithograph",
+    "description": "Lithograph",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_625297.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP833795.jpg",
+    "dominant_palette": [
+      "creamy off-white",
+      "charcoal black",
+      "pale warm grey"
+    ],
+    "visual_concepts": [
+      "lawyer",
+      "courtroom",
+      "judge",
+      "gowned figures",
+      "gesturing",
+      "caricature"
+    ],
+    "mood": "satirical",
+    "research_themes": [
+      "critique of the legal system",
+      "nineteenth-century french satire",
+      "theatricality of law",
+      "daumier's lithography",
+      "bourgeois hypocrisy"
+    ]
+  },
+  {
+    "object_id": 364205,
+    "title": "Nadar Élevant la Photographie à la Hauteur de l'Art",
+    "artist": "Honoré Daumier",
+    "date": "May 25, 1862",
+    "place": "Place Unknown",
+    "medium": "Lithograph",
+    "description": "Lithograph",
+    "culture": "",
+    "classification": "Prints",
+    "is_highlight": false,
+    "cluster": "French 19th-Century",
+    "image_filename": "met_364205.jpg",
+    "image_url": "https://images.metmuseum.org/CRDImages/dp/web-large/MM8597.jpg",
+    "dominant_palette": [
+      "charcoal black",
+      "ash gray",
+      "pale ivory parchment"
+    ],
+    "visual_concepts": [
+      "hot air balloon",
+      "camera on tripod",
+      "cityscape panorama",
+      "top hat blowing away",
+      "signage spelling Photographie",
+      "caricature portrait"
+    ],
+    "mood": "satirical",
+    "research_themes": [
+      "democratization of art",
+      "19th-century technological progress",
+      "aerial photography",
+      "artistic legitimacy versus mechanical reproduction",
+      "bourgeois commercialism",
+      "French caricature and lithography"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+---
+title: "Multimodal Met Museum Semantic Networks"
+---
+
+## Use case: Extracting semantic concepts from museum objects and visualizing connections
+
+Historically, analyzing visual patterns or latent themes across large-scale physical collections was a manual, slow task reserved for specialists. Traditional computer vision (like computing color histograms or edge detection) and natural language processing (like TF-IDF or keyword matching) often miss the "vibe" or deeper contextual and symbolic connections of art. 
+
+Using a multimodal Vision-Language Model (VLM) like Gemini, we can perform "semantic feature extraction" (essentially a reverse CLIP approach) to describe and tag visual elements into structured natural language concepts, and map these interconnections into an interactive network.
+
+### Workflow overview
+
+1.  Query the Metropolitan Museum of Art Open Access API to fetch public domain paintings.
+2.  Download the images and store metadata locally.
+3.  Use the Gemini API with a `.env` file to programmatically analyze each artwork, returning structured JSON tags (dominant colors, visual subjects, emotional mood, latent research themes).
+4.  Build an interactive HTML network graph connecting artworks to their shared semantic concepts.
+5.  Document your work in a Quarto document and share your project on GitHub.
+
+### Data and Setup
+
+-   **API:** We will use the [The Metropolitan Museum of Art Open Access API](https://metmuseum.github.io/), which requires no API keys and allows searching and retrieving public-domain collections.
+-   **Gemini API Key:** You must use a `.env` file to securely load your `GEMINI_API_KEY`.
+-   **Libraries:**
+    -   If using Python: favor `requests`, `python-dotenv`, `openai`, and `pyvis` for interactive network visualization.
+    -   If using R: favor `httr2`, `dotenv`, `openai`, and `visNetwork` or `networkD3` for the interactive network.
+
+### Ask
+
+-   **Session 1: API Fetching & Gemini Feature Extraction**
+    -   Brainstorm with your agent in `plan` mode to handle the Met API query. Fetch details for 15-20 public-domain paintings from a specific department (e.g., "European Paintings" or "Asian Art").
+    -   Ensure your agent writes clean, reproducible code to download images to a local folder (e.g., `images/`) and save basic metadata (title, artist, year, medium) in a CSV file.
+    -   Instruct your agent to write a script that securely loads the Gemini API key from `.env`.
+    -   Iterate over the images, sending both the image file and its metadata to Gemini. Instruct the model to return a structured JSON response extracting:
+        -   **Dominant palette:** 3 distinct visual colors (e.g., "warm gold", "deep indigo").
+        -   **Visual concepts:** Primary subjects/objects visible in the work.
+        -   **Mood/Vibe:** The overall emotional tone (e.g., "melancholic", "serene", "triumphant").
+        -   **Research themes:** Latent themes (e.g., "social status", "nature", "domesticity").
+    -   Combine Gemini's output with the original metadata into an enriched dataset (e.g., `enriched_collection.csv`).
+
+-   **Session 2: Mapping the Semantic Web**
+    -   Work with your agent to write a visualization script using the enriched dataset.
+    -   **Define your network logic & edge weights:** There are two great ways to model this network:
+        -   **Option A: Bipartite Graph (Artworks connected to Tags):** Nodes are *both* Artworks and Semantic Tags (colors, vibes, themes). Edges are unweighted, representing a binary match (e.g. Artwork $A$ has tag "melancholic").
+        -   **Option B: Projected Graph (Artworks connected to Artworks):** Nodes are *only* Artworks. An edge is drawn directly between Artwork $A$ and Artwork $B$. The **edge weight** is the number of shared semantic tags between them (e.g., if both share "warm gold", "nature", and "serene", the weight is 3). Thicker lines represent stronger visual or thematic links!
+    -   Build an interactive HTML network graph where:
+        -   **Nodes** represent either the artworks or the extracted concepts depending on your chosen network logic above.
+        -   **Edges (lines)** represent connections, optionally adjusting the line thickness (weight) based on the number of shared attributes if using Option B.
+        -   **Styling:** Color-code artwork nodes by historical century or artistic movement, and attribute nodes by category.
+    -   **Rich Interactivity:** Do not just create basic colored circles for nodes!
+        -   For Artwork nodes, set the node shape to be an image and provide the local path to the downloaded thumbnail so the artwork is visible directly on the graph.
+        -   Utilize the node's title attribute (which supports HTML) to create a rich hover tooltip. When hovering over an artwork node, the tooltip should display:
+            -   An `<img>` tag of the artwork.
+            -   The Title and Artist in bold.
+            -   The extracted Gemini concepts (Mood, Palette).
+            -   An `<a href="...">` link to the original Met Museum object page.
+    -   Open the generated HTML and explore the interactive graph. Look for unexpected connections—such as a 17th-century oil painting and a 20th-century piece clustering together based on shared mood or latent research themes.
+    -   Include this interactive visualization in your Quarto document, add your findings and analysis, and publish the final site to GitHub Pages.

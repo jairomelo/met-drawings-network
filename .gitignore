@@ -1,0 +1,19 @@
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore python virtual environments and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Keep images/ and data/ folders but ignore temporary caches if needed
+# (Make sure images/ and data/ are tracked as requested by AGENTS.md)
+!images/
+!data/
+
+/.quarto/
+_site/
+lib/
+.DS_Store
+

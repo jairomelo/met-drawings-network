@@ -1,0 +1,9 @@
+/* Custom Styles for the MET Drawings Semantic Network site */
+body {
+  background-color: #FAFAFA !important;
+  color: #333333 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2C3E50 !important;
+}

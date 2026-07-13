@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "MET Drawings Semantic Network"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: analysis.qmd
+        text: Semantic Network Analysis
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    self-contained: false # Set to false to allow references to local /images and /data correctly

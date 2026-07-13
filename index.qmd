@@ -1,0 +1,21 @@
+---
+title: "MET Drawings & Prints Semantic Network"
+subtitle: "An Interactive Visual & Multimodal Exploration of Art Over the Centuries"
+author: "opencode"
+date: "2026-07-13"
+---
+
+Welcome to the **MET Museum Drawings and Prints Semantic Network Project**!
+
+This project explores 44 exquisite works of graphic art from the Metropolitan Museum of Art's Drawings and Prints Collection (Department 9). We focus on three distinct periods:
+1. **German Renaissance** (Albrecht Dürer, Lucas Cranach, Hans Baldung)
+2. **Dutch Golden Age** (Rembrandt van Rijn, Adriaen van Ostade)
+3. **French 19th-Century** (Honoré Daumier, Edgar Degas, Henri de Toulouse-Lautrec)
+
+Using **Gemini 3.5 Multimodal Vision-Language Model (`gemini-3.5-flash`)**, we analyzed each local artwork's image to extract visual metrics (colors, concepts, mood, and latent historical research themes).
+
+We then built a **Projected Network Graph** where edges connect artworks sharing semantic features. 
+
+### 🧭 Exploration Hub
+
+*   [**Interactive Semantic Network Analysis**](analysis.qmd): View the interactive, draggable, zoomable visual graph canvas, see rich metadata, and inspect the connections bridging centuries of art history!

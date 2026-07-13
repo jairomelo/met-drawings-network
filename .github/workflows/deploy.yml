@@ -1,0 +1,48 @@
+name: Deploy Quarto to GitHub Pages
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/util/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Note: We don't run API scripts in GitHub actions because data and images
+      # are already committed and tracked in images/ and data/ directories locally!
+      # We only need Python to render any possible notebook content if necessary.
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: html
+
+      # Make sure the images/ and data/ folders are copied to the site output
+      # so that the embedded network HTML and local node images render properly!
+      - name: Copy Assets to Site Output
+        run: |
+          mkdir -p _site/images
+          mkdir -p _site/data
+          cp -r images/* _site/images/ || true
+          cp -r data/* _site/data/ || true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
