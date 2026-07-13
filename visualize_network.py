@@ -154,6 +154,42 @@ def generate_network():
     
     # Save the output HTML file
     net.save_graph(OUTPUT_HTML_PATH)
+    
+    # Read the output HTML file and inject a custom DOM parser for tooltips
+    # to force Vis.js to render them as actual formatted HTML instead of escaped text strings
+    if os.path.exists(OUTPUT_HTML_PATH):
+        with open(OUTPUT_HTML_PATH, "r", encoding="utf-8") as f:
+            html_content = f.read()
+            
+        tooltip_dom_script = """
+                  // Convert string tooltips (titles) to DOM elements for rich HTML rendering in Vis.js
+                  nodes.forEach(function(node) {
+                    if (node.title) {
+                      var div = document.createElement("div");
+                      div.innerHTML = node.title;
+                      node.title = div;
+                    }
+                  });
+                  
+                  // Same for edges
+                  edges.forEach(function(edge) {
+                    if (edge.title) {
+                      var div = document.createElement("div");
+                      div.innerHTML = edge.title;
+                      edge.title = div;
+                    }
+                  });
+        """
+        
+        marker = "data = {nodes: nodes, edges: edges};"
+        if marker in html_content:
+            html_content = html_content.replace(marker, tooltip_dom_script + "\n                  " + marker)
+            with open(OUTPUT_HTML_PATH, "w", encoding="utf-8") as f:
+                f.write(html_content)
+            print("Successfully injected custom DOM parser for HTML tooltips.")
+        else:
+            print("Warning: Tooltip marker not found in output HTML. Checking formatting.")
+
     print(f"Successfully generated interactive network graph at: {OUTPUT_HTML_PATH}")
 
 if __name__ == "__main__":
