@@ -60,6 +60,7 @@ MET Museum do not require API users to register or obtain an API key to use the 
 - When using `pyvis` or `visNetwork`, remember that the `title` attribute of a node accepts raw HTML. Use this to construct rich hover tooltips containing images and metadata.
 - To display images as nodes, set `shape="image"` and map the `image` attribute to the local file path.
 - The final output should be a Quarto document (`.qmd`) containing the analysis and embedding the interactive HTML network graph.
+- **Static iframe Embedding over R blocks:** When embedding a standalone HTML network file (e.g. from `pyvis`) in a Quarto document, avoid using active `{r}` blocks to output the iframe. This triggers active R-runtime checks (e.g., searching for `Rscript`) during compilation, which will crash deployment environments that lack R. Instead, use static markdown/HTML blocks directly (e.g., raw `<iframe>` wrapped inside layout divs).
 - Configure a GitHub Actions workflow to render the Quarto document to GitHub Pages. All operations that require `GEMINI_API_KEY` must be performed locally and not included in the GitHub Actions.
 - Since the published site will need the images, ensure the `images/` folder is tracked by Git, but monitor the folder size. When selecting items to download, prefer objects where `isHighlight` is true and `hasImages` is true, ordered by relevance to the search query, until the 30–50 item limit is reached.
 
